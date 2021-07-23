@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .text1 {
+        text-align: justify;
+        text-justify: inter-word;
+      }
+    </style>
+  </head>
+  <script>(function(w, d) { w.CollectId = "60f0499e94689f24ee2c175e"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="about_us.html">ABOUT US</a></li>
+        <li><a href="product.html">PRODUCT & SERVICE</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+    </nav>
+    <span id="home">
+      <nav>
+        <img src="images/logo.jpg" height="400" width="400" />
+      </nav>
+      <h1 class="title">WELCOME TO VDP SOLUTIONS</h1>
+
+      <div class="text1">
+        <p>
+          VDP Solutions., a growing IT company based and operating in
+          Vijayawada, an obvious capital of the newly formed state in India was
+          founded by wireless communication specialist entrepreneurs to address
+          these challenges for new generation Internet Protocol (IP)
+          connections.
+        </p>
+        <p>
+          Today's evolving communications and computer infrastructure presents a
+          challenging environment for government, business and individual
+          consumers alike. Given the frequency and sophistication of
+          cyber-attacks on networks of all sizes and locations, a breach is
+          almost guaranteed unless the right security solution is in place. An
+          incident can put important company, employee and customer information
+          at risk of being stolen or misused, thus leading to costly
+          ramifications for the victim.
+        </p>
+        <p>
+          We envision our core technologies and methods becoming a de facto
+          platform for protection, privacy, performance and flexibility over
+          IP-based communications. Our offerings provide unprecedented network
+          performance and security for a broad range of IP connections. Our
+          customers, in turn, enjoy the value brought by significantly higher
+          operating efficiencies, total "privacy" of application data and
+          ensured protection of endpoints using traditional and next generation
+          networks.
+        </p>
+      </div>
+    </span>
+    <div class="wrapper">
+      <div class="media">
+        <ul>
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </ul>
+      </div>
+    </div>
+    <h4>Copyright &copy 2021 VDP Solutions Pvt Ltd</h4>
+    <script>
+      let title = document.querySelector(".title");
+      let fadeAndMove = [
+        {
+          opacity: 0,
+          transform: `translateY(-20px)`,
+        },
+        {
+          opacity: 1,
+          transform: `translateY(0px)`,
+        },
+      ];
+
+      let timing = {
+        duration: 2000,
+        easing: "ease-in-out",
+      };
+
+      const titleChange = title.animate(fadeAndMove, timing);
+    </script>
+  </body>
+</html>
